@@ -8,16 +8,20 @@
 </head>
 <body>
 	<h1 align="center">Love Calculator</h1>
-	<div align="center">
-		<p>
-			<label for="yn">Your Name :</label> <input type="text" id="yn" />
-		</p>
-		<p>
-			<label for="yn">Crush Name :</label> <input type="text" id="cn" />
-		</p>
+	<hr />
+	<form action="process-homepage" method="get">
+		<div align="center">
+			<p>
+				<label for="yn">Your Name :</label> <input type="text" id="yn"
+					name="userName" />
+			</p>
+			<p>
+				<label for="yn">Crush Name :</label> <input type="text" id="cn"
+					name="crushName" />
+			</p>
 
-		<input type="submit" value="calculate">
-
-	</div>
+			<input type="submit" value="calculate">
+		</div>
+	</form>
 </body>
 </html>
