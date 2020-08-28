@@ -2,8 +2,8 @@ package com.lyomann.api;
 
 public class UserInfoDTO {
 
-	private String userName = "user name demo";
-	private String crushName = "crush name demo";
+	private String userName = "Mr x";
+	private String crushName = "Miss y";
 	
 	
 	
