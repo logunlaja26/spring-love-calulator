@@ -19,6 +19,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>contact</servlet-name>
-    <url-pattern>/resource/*</url-pattern>
+    <url-pattern>/</url-pattern>
   </servlet-mapping>
 </web-app>
