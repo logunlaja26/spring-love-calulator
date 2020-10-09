@@ -27,13 +27,26 @@
 		<br />
 
 		<label>Country : </label>
-		<form:select path="countryName" >
+		<form:select path="countryName">
 			<form:option value="Usa" label="USA"></form:option>
 			<form:option value="Nig" label="Nigeria"></form:option>
 			<form:option value="Chi" label="China"></form:option>
 			<form:option value="Eng" label="England"></form:option>
-			
+
 		</form:select>
+		<br />
+
+		<label>Hobbies : </label>
+		Workout : <form:checkbox path="hobbies" value="workout" />
+		Travel : <form:checkbox path="hobbies" value="travel" />
+		Biking : <form:checkbox path="hobbies" value="biking" />
+		Running : <form:checkbox path="hobbies" value="running" />
+		Reading : <form:checkbox path="hobbies" value="reading" />
+		
+		
+		
+
+
 	</form:form>
 
 </body>

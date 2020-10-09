@@ -6,6 +6,24 @@ public class UserRegistrationDTO {
 	private String userName;
 	private char[] password;
 	private String countryName;
+	private String[] hobbies; 
+	private String gender;
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public String[] getHobbies() {
+		return hobbies;
+	}
+
+	public void setHobbies(String[] hobbies) {
+		this.hobbies = hobbies;
+	}
 
 	public String getCountryName() {
 		return countryName;
